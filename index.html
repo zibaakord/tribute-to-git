@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Tribute to Git</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <pre
+        class="version-box"
+      ><span class="version-box-span">$ git --version</span>
+git version <span class="version-box-span">2.42.0</span></pre>
+
+      <header class="header">
+        <div class="header-text">
+          <h1>A Tribute to Git</h1>
+          <h2>The Backbone of Modern Development</h2>
+          <p>
+            Git is a distributed version control system created by Linus
+            Torvalds in 2005. It helps developers track changes, collaborate,
+            and build software efficiently.
+          </p>
+        </div>
+        <img src="src/git-logo.svg" alt="Git Logo" class="git-logo" />
+      </header>
+
+      <section class="cards">
+        <div class="card">
+          <h3>Branching</h3>
+          <p>
+            Branching allows developers to work on new features independently
+          </p>
+          <code>git checkout -b new-feature</code>
+        </div>
+
+        <div class="card">
+          <h3>Staging</h3>
+          <p>Staging lets developers review changes before committing</p>
+          <code>git add &lt;file&gt;</code>
+        </div>
+
+        <div class="card">
+          <h3>Merge</h3>
+          <p>Merge integrates changes from different branches</p>
+          <code>git merge feature-branch</code>
+        </div>
+      </section>
+
+      <section class="commands">
+        <pre>
+git <span class="commands-span">init</span>   Initialize a new repository
+git <span class="commands-span">add</span>    Stage changes
+git <span class="commands-span">commit</span> Save changes
+git <span class="commands-span">merge</span>  Essential tool for every software developer
+</pre>
+      </section>
+
+      <section class="why">
+        <h3>Why Developers Love Git</h3>
+        <ul>
+          <li>Fast-efficient, and reliable</li>
+          <li>Open-source and widely supported</li>
+          <li>Essential tool for every software developer</li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <a href="https://github.com/git/git" target="_blank" class="btn"
+          >Github profile</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
